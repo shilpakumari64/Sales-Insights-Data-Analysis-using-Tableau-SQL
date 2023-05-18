@@ -1,11 +1,11 @@
 # Sales-Insights-Data-Analysis-using-Tableau-SQL
 Welcome to my GitHub repository for the Sales Insights project, where I performed data analysis using Tableau and SQL. This project focuses on analyzing the sales data of an India-based hardware company and drawing valuable insights to aid in decision-making.
 
-About the Project :
+## About the Project 
 
 The Sales Insights project involves analyzing the sales data of an India-based hardware company. I developed ETL mappings using SQL to extract data from unstructured sources and transform it into a staging area for data cleaning. Furthermore, I designed a star schema data model on Tableau to facilitate efficient analysis. The project culminates in a Tableau dashboard that provides visualizations and insights based on various parameters affecting the company's performance year on year.
 
-Technologies Used ⚙
+## Technologies Used ⚙
 Advance Excel
 MySQL | SQL Server
 Tableau 
@@ -13,7 +13,7 @@ Statistics
 Project - India-based Hardware Company Sales Insights - Data Analysis
 Tableau Dashboard Link: https://public.tableau.com/app/profile/shilpa.kumari.m/viz/SalesInsights-DataAnalysisProjectusingTableau_16844068501830/Dashboard-RevenueAnalysis
 
-Problem Statements :
+## Problem Statements 
 During the analysis, the following problem statements were addressed:
 
 Q1. Revenue breakdown by cities.
@@ -26,7 +26,7 @@ Q4. Top 5 products by revenue.
 
 Q5. Net Profit and Profit Margin by Market
 
-Approach - Project Planning & Aims Grid
+## Approach - Project Planning & Aims Grid
 Purpose: The project aims to unlock sales insights that were previously unseen, providing decision support for the sales team and automating processes to reduce manual data gathering efforts.
 
 Stakeholders: The stakeholders involved in this project include the Sales Director, I.T. Team, Customer Service Team, and Data & Analytics Team.
@@ -41,7 +41,7 @@ Sales analysts no longer manually gather data, saving 20% of their business time
 Data Analysis - Approach
 To set up and perform the data analysis, follow these steps:
 
-Setup Process :
+## Setup Process 
 
 Download the file: db_dump.xlsx
 
@@ -53,7 +53,7 @@ Connect Tableau with the MySQL or Excel database.
 
 Save the file as .twb or .twbx.
 
-Data Analysis Using SQL :
+## Data Analysis Using SQL 
 Here are some SQL queries that can be used for data analysis:
 
 
@@ -85,11 +85,11 @@ SELECT SUM(transactions.sales_amount) FROM transactions INNER JOIN date ON trans
 SELECT SUM(transactions.sales_amount) FROM transactions INNER JOIN date ON transactions.order_date = date.date WHERE date.year = 2020 AND transactions.market_code = 'Mark001';
 
 
-Tableau Dashboard - Revenue Analysis
+## Tableau Dashboard - Revenue Analysis
 
 Revenue Analysis Dashboard
 
-Tableau Dashboard - Profit Analysis
+## Tableau Dashboard - Profit Analysis
 
 Profit Analysis Dashboard
 
